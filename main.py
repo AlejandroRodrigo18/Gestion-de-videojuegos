@@ -9,6 +9,7 @@ def mostrar_catalogo():
         print(f"- {juego['titulo']} ({juego['anio']}) | Género(s): {generos}")
     print()
 
+
 def mostrar_estadisticas():
     print("\nEstadísticas del catálogo:")
     print(f"Total de videojuegos: {total_juegos(catalogo)}")
