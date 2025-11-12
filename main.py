@@ -109,12 +109,11 @@ def menu():
 if __name__ == "__main__":
     menu()
 
-    # Manteniendo tu flujo original exacto
     mostrar_catalogo()
 
     nombreVideojuego = input(" Escribe el nombre de un videojuego: ")
     buscar_videojuego(nombreVideojuego)
 
-    gestionar_generos()
+    eliminar_generos()
 
     gestionar_lista()
