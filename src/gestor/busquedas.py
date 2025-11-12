@@ -1,0 +1,1 @@
+from diccionarios import buscar_por_titulo, buscar_por_genero
