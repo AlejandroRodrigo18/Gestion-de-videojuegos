@@ -11,7 +11,8 @@ videojuegos = [
     ("Minecraft", 2009, "Mundo abierto"),
 ]
 
-# 2. Recorrer la lista e imprimir los datos con formato claro
-print("Catálogo de videojuegos:")
-for titulo, año, genero in videojuegos:
-    print(f"'{titulo} ({año}) {genero}'")
+if __name__ == "__main__":
+    # 2. Recorrer la lista e imprimir los datos con formato claro
+    print("Catálogo de videojuegos:")
+    for titulo, año, genero in videojuegos:
+        print(f"'{titulo} ({año}) {genero}'")
