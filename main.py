@@ -3,11 +3,12 @@ from src.gestor.busquedas import buscar_por_titulo, buscar_parcial, buscar_por_g
 from src.gestor.estadisticas import total_juegos, conteo_por_genero
 
 def mostrar_catalogo():
+    print("-------------------------------")
     print("\nCatálogo de videojuegos:")
     for juego in catalogo.values():
         generos = ", ".join(juego["genero"])
         print(f"- {juego['titulo']} ({juego['anio']}) | Género(s): {generos}")
-    print()
+    print("-------------------------------")
 
 
 def mostrar_estadisticas():
@@ -20,17 +21,18 @@ def mostrar_estadisticas():
 
 def menu():
     while True:
-        print("\nMenú del Gestor de Videojuegos")
-        print("1. Listar videojuegos")
-        print("2. Buscar por título exacto")
-        print("3. Buscar por fragmento de título")
-        print("4. Buscar por género")
-        print("5. Buscar por rango de años")
-        print("6. Añadir videojuego")
-        print("7. Actualizar videojuego")
-        print("8. Eliminar videojuego")
-        print("9. Mostrar estadísticas")
-        print("0. Salir")
+        print("""--- OPCIONES ---
+1. Mostrar lista de Videojuegos
+2. Buscar videojuego por título exacto
+3. Buscar videojuego por fragmento de título
+4. Buscar videojuego por género
+5. Buscar videojuego por rango de fechas
+6. Añadir Videojuegos
+7. Actualizar información de un Videojuego
+8. Eliminar Videojuego
+9. Mostrar estadísticas de la lista de Videjojuegos
+0. Salir 
+---------------------------------------""")
 
         opcion = input("Selecciona una opción: ")
 
