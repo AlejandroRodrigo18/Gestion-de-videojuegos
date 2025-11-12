@@ -35,7 +35,7 @@ def actualizar_juego(catalogo, clave, nuevo_year=None, nuevo_genero=None):
             catalogo[clave]["anio"] = nuevo_year
         if nuevo_genero:
             catalogo[clave]["genero"].add(nuevo_genero)
-        print(f"🔄 '{catalogo[clave]['titulo']}' actualizado correctamente.")
+        print(f"'{catalogo[clave]['titulo']}' actualizado correctamente.")
     else:
         print("No existe ese juego.")
 
