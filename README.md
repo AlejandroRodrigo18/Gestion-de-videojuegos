@@ -1,16 +1,16 @@
-# Gestion-de-videojuegos
+**Gestion-de-videojuegos**
 
-Practica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Gallegos, Francisco Javier López y Mateus Leandro.
+Práctica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Gallegos, Francisco Javier López y Mateus Leandro.
 
-#Roles
-Integrador: Alejandro Rodrigo
-Encargado de hacer las etapas 1 y 2: Francisco Javier López
-Encargado de hacer las etapas 3 y 4: Mateus Leandro
-Encargado de hacer las etapas 5 y 6: David Gallegos
+**Roles**
+  - Integrador: Alejandro Rodrigo
+  - Encargado de hacer las etapas 1 y 2: Francisco Javier López
+  - Encargado de hacer las etapas 3 y 4: Mateus Leandro
+  - Encargado de hacer las etapas 5 y 6: David Gallegos
 
-#Ejecución del programa
+**Ejecución del programa**
 
-Para ejecutar el programa, descargue la carpeta e inicia el main.py de la carpeta en un editor de código.
+Para ejecutar el programa, descargue la carpeta e inicie el main.py de la carpeta en un editor de código (VS Code o PyCharm).
 
 #
 **Etapa 1: Listas**
