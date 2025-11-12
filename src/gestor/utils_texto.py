@@ -1,1 +1,5 @@
-from diccionarios import generar_clave, normalizar_genero
+def generar_clave(titulo):
+    return titulo.lower().replace(" ", "_")
+
+def normalizar_genero(genero):
+    return genero.strip().title()

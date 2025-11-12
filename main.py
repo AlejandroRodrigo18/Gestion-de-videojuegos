@@ -1,7 +1,6 @@
 from src.gestor.catalogo import catalogo, crear_juego, leer_juego, actualizar_juego, eliminar_juego
 from src.gestor.busquedas import buscar_por_titulo, buscar_parcial, buscar_por_genero, buscar_por_rango
 from src.gestor.estadisticas import total_juegos, conteo_por_genero
-from src.gestor.utils_texto import generar_clave
 
 def mostrar_catalogo():
     print("\nCatálogo de videojuegos:")
@@ -69,7 +68,7 @@ def menu():
             try:
                 anio = int(input("Año: "))
                 genero = input("Género: ")
-                catalogo.crear_juego(catalogo, titulo, anio, genero)
+                crear_juego(catalogo, titulo, anio, genero)
             except ValueError:
                 print("Año inválido.")
 
@@ -77,7 +76,7 @@ def menu():
             clave = input("Clave del juego (título en minúsculas con guiones bajos): ")
             nuevo_year = input("Nuevo año (dejar vacío para no cambiar): ")
             nuevo_genero = input("Nuevo género (dejar vacío para no cambiar): ")
-            catalogo.actualizar_juego(
+            actualizar_juego(
                 catalogo,
                 clave,
                 nuevo_year=int(nuevo_year) if nuevo_year else None,
@@ -86,7 +85,7 @@ def menu():
 
         elif opcion == "8":
             clave = input("Clave del juego a eliminar: ")
-            catalogo.eliminar_juego(catalogo, clave)
+            eliminar_juego(catalogo, clave)
 
         elif opcion == "9":
             mostrar_estadisticas()
@@ -100,13 +99,3 @@ def menu():
 
 if __name__ == "__main__":
     menu()
-
-    # Manteniendo tu flujo original exacto
-    mostrar_catalogo()
-
-    nombreVideojuego = input(" Escribe el nombre de un videojuego: ")
-    buscar_videojuego(nombreVideojuego)
-
-    eliminar_generos()
-
-    gestionar_lista()
