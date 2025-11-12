@@ -11,11 +11,9 @@ videojuegos = [
     ("Minecraft", 2009, "Mundo abierto"),
 ]
 
-# 2. Recorrer la lista e imprimir los datos con formato claro
-def mostrar_catalogo():    
+if __name__ == "__main__":
+    # 2. Recorrer la lista e imprimir los datos con formato claro
+ def mostrar_catalogo():    
     print("Catálogo de videojuegos:")
     for titulo, año, genero in videojuegos:
-        print(f"'{titulo} ({año}) {genero}'")
-
-if __name__ == "__main__":
-    mostrar_catalogo()
+            print(f"'{titulo} ({año}) {genero}'")
