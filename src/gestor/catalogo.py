@@ -1,0 +1,1 @@
+from diccionarios import crear_juego, leer_juego, actualizar_juego, eliminar_juego

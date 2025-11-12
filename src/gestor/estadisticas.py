@@ -1,0 +1,1 @@
+from diccionarios import total_juegos, conteo_por_genero

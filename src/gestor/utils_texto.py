@@ -1,0 +1,1 @@
+from diccionarios import generar_clave, normalizar_genero
