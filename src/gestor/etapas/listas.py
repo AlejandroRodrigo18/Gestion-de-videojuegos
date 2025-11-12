@@ -8,7 +8,8 @@ videojuegos = [
 ]
 
 # Añade nuevos videojuegos al final de la lista
-videojuegos.append("Elden Ring")
+def gestionar_lista():
+ videojuegos.append("Elden Ring")
 videojuegos.append("Undertale")
 
 # Inserta un videojuego en una posición específica

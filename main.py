@@ -69,6 +69,7 @@ def menu():
                 anio = int(input("Año: "))
                 genero = input("Género: ")
                 crear_juego(catalogo, titulo, anio, genero)
+                crear_juego(catalogo, titulo, anio, genero)
             except ValueError:
                 print("Año inválido.")
 
@@ -76,6 +77,7 @@ def menu():
             clave = input("Clave del juego (título en minúsculas con guiones bajos): ")
             nuevo_year = input("Nuevo año (dejar vacío para no cambiar): ")
             nuevo_genero = input("Nuevo género (dejar vacío para no cambiar): ")
+            actualizar_juego(
             actualizar_juego(
                 catalogo,
                 clave,
@@ -85,6 +87,7 @@ def menu():
 
         elif opcion == "8":
             clave = input("Clave del juego a eliminar: ")
+            eliminar_juego(catalogo, clave)
             eliminar_juego(catalogo, clave)
 
         elif opcion == "9":
@@ -97,5 +100,15 @@ def menu():
         else:
             print("Opción inválida. Intenta de nuevo.")
 
+
 if __name__ == "__main__":
     menu()
+
+    mostrar_catalogo()
+
+    nombreVideojuego = input(" Escribe el nombre de un videojuego: ")
+    buscar_videojuego(nombreVideojuego)
+
+    eliminar_generos()
+
+    gestionar_lista()
