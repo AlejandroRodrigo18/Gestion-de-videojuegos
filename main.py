@@ -6,7 +6,7 @@ from etapas import (
     videojuegos,
     mostrar_catalogo as mostrar_catalogo_etapas,
     buscar_videojuego,
-    gestionar_generos,
+    eliminar_generos,
     gestionar_lista
 )
 
