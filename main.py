@@ -1,7 +1,7 @@
-from src.gestor.catalogo import catalogo, crear_juego, leer_juego, actualizar_juego, eliminar_juego
-from src.gestor.busquedas import buscar_por_titulo, buscar_parcial, buscar_por_genero, buscar_por_rango
-from src.gestor.estadisticas import total_juegos, conteo_por_genero
-from src.gestor.utils_texto import generar_clave
+from gestor.catalogo import catalogo, crear_juego, leer_juego, actualizar_juego, eliminar_juego
+from gestor.busquedas import buscar_por_titulo, buscar_parcial, buscar_por_genero, buscar_por_rango
+from gestor.estadisticas import total_juegos, conteo_por_genero
+
 from etapas import (
     videojuegos,
     mostrar_catalogo as mostrar_catalogo_etapas,
