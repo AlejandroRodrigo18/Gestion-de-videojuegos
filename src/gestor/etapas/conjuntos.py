@@ -22,7 +22,7 @@ if genero_favorito in generos:
 else:
     print(f"El género '{genero_favorito}' no está en la colección")
 
-    print()
+print()
 
 generos_amigo = {"Simulación", "Novela", "Aventura", "Shooter"}
 
