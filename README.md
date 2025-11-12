@@ -33,7 +33,9 @@ Encargado de imprimir el catálogo de videojuegos almacenado agarrando informaci
 
 **Etapa 3: Cadenas**
 
-Nos permite introducir un nombre de un videojuego y busca coincidencias en el catálogo, en caso de que encuentre un nombre que coincida con el que hay almacenado en las tuplas, mostrará el nombre del videojuego, el género al que pertece el videojuego y el año de lanzamiento de este mismo. Además, el buscador del titulo del videojuego tiene una comparación insensible a mayúsculas y espacios.
+Nos permite introducir un nombre de un videojuego y busca coincidencias en el catálogo, en caso de que encuentre un nombre que coincida con el que hay almacenado en las tuplas, mostrará el nombre del videojuego, el género al que pertece el videojuego y el año de lanzamiento de este mismo. 
+
+Además, el buscador del titulo del videojuego tiene una comparación insensible a mayúsculas y espacios.
 
 #
 
@@ -49,10 +51,23 @@ Trabaja con los géneros extraídos del catálogo usando conjuntos como el `pop`
 
 **Etapa 5:  Diccionarios**
 
--Pendiente
+Implementa un sistema completo de gestión de videojuegos utilizando diccionarios como estructura de datos principal. Las funcionalidades incluyen:
+
+CRUD completo (Crear, Leer, Actualizar, Eliminar) de videojuegos en el catálogo usando la clave de referencia 
 
 #
 
 **Etapa 6:  Proyecto final (menú interactivo)**
 
--Pendiente
+El sistema ya integrado se encarga de combinar todas las etapas anteriores en un menú interactivo completo con las siguientes opciones:
+
+  - Listar videojuegos -> Muestra todo el catálogo organizado
+  - Buscar por título exacto -> Hace una búsqueda del titulo de un videojuego para saber si existe 
+  - Buscar por fragmento de título -> Realiza una búsqueda de un videojuego solo agregando parte del nombre (Ej: The Legend)
+  - Buscar por género -> Filtra por categoría los videojuegos
+  - Buscar por rango de años -> Búsqueda de los titulos de los videojuego por su año de lanzamiento
+  - Añadir videojuego -> Encargado de agregar nuevos juegos al catálogo
+  - Actualizar videojuego -> Modificar información existente que pide el usuario e ingresa este mismo
+  - Eliminar videojuego -> Elimina juegos del catálogo que introduce el usuario
+  - Mostrar estadísticas -> Muestra las métricas y conteos del catálogo
+  - Salir -> Finalizar el programa
